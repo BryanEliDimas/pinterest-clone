@@ -8,5 +8,14 @@ class PinsController < ApplicationController
   end
 
   def wall
+    @pins = Pin.all
+  end
+
+  def new
+    @new_pin = Pin.new
+  end
+
+  def create
+    @new_pin = Pin.new params.require(:new_pin).permit(:image, :notes, :user_id)
   end
 end

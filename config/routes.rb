@@ -11,6 +11,10 @@ Rails.application.routes.draw do
 
   get 'signout' => 'sessions#delete', as: :sign_out
 
+  get 'pin' => 'pins#new', as: :new_pin
+
+  post 'pin' => 'pins#create', as: :pins
+
   get 'wall' => 'pins#wall', as: :wall
 
   root 'pins#home'
