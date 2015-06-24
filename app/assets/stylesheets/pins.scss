@@ -1,3 +1,22 @@
 // Place all the styles related to the pins controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.welcome {
+  text-align: center;
+  margin-top: 20%;
+}
+
+body {
+  background: url('https://static.pexels.com/photos/6546/sky-night-space-trees-large.jpeg') no-repeat;
+  background-size: cover;
+}
+
+.welcome {
+  color: white;
+}
+
+.customize-modal {
+  background: url('https://static.pexels.com/photos/7117/mountains-night-clouds-lake-large.jpg');
+  background-size: cover;
+}
