@@ -1,7 +1,7 @@
 <!-- form for new pin (or Interest)-->
-<%= simple_form_for @new_pin, url: new_pin_path, remote: true do |f| %>
+<%= simple_form_for @pin, remote: true do |f| %>
   <%= f.input :image %>
   <%= f.input :notes %>
   <%= f.input :user_id, as: :hidden, input_html: {value: @current_user.id} %>
-  <%= f.submit "Pin", class: "btn btn-primary" %>
+  <%= f.submit "Add", class: "btn btn-primary" %>
 <% end %>

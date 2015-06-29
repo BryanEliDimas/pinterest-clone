@@ -6,7 +6,7 @@ gem 'rails', '4.2.1'
 # Use postgresql as the database for Active Record
 gem 'pg'
 
-gem 'simple_form'
+gem 'simple_form', '3.1'
 
 gem 'kaminari'
 
@@ -15,6 +15,10 @@ gem 'bootstrap-sass'
 gem 'faker'
 
 gem 'carrierwave'
+
+gem 'carrierwave-aws'
+
+gem 'dotenv-rails'
 
 gem 'remotipart', '~> 1.2'
 
