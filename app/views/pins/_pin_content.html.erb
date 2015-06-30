@@ -1,0 +1,7 @@
+<div class="center-block">
+  <%= image_tag @pin.image.url(:pin), class: "img img-responsive" %>
+  <a href="<%= @pin.link %>" target="_blank"><%= @pin.link %></a>
+  <h4>
+      <%= @pin.notes %>
+  </h4>
+</div>
