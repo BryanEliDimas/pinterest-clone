@@ -15,7 +15,5 @@ Rails.application.routes.draw do
 
   post 'pin' => 'pins#create', as: :pins
 
-  get 'wall' => 'pins#wall', as: :wall
-
   root 'pins#home'
 end

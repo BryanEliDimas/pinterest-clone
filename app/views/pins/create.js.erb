@@ -1,5 +1,6 @@
 <% if @pin.save %>
-  location.reload();
+  $('#bryans-modal').modal("hide");
+  $('.container').html("<%= j render partial: 'wall' %>");
 <% else %>
-    $('#bryans-modal .modal-body').html("SOMETHING WRONG <%= j render partial: 'new_pin' %>");
+    $('#bryans-modal .modal-body').html("<%= j render partial: 'new_pin' %>");
 <% end %>

@@ -4,3 +4,13 @@
 <h1 class="wall">Wall</h1>
 
 <%= link_to "New Interest", new_pin_path, remote: true, class: "btn btn-default"  %>
+
+<% @pins.in_groups_of(4, false) do |pins| %>
+  <div class="row">
+    <% pins.each do |pin| %>
+      <div class="col-sm-12 col-md-3">
+        <%= image_tag pin.image, class: "img img-responsive" %>
+      </div>
+    <% end %>
+  </div>
+<% end %>

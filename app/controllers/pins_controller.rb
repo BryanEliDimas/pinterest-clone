@@ -5,9 +5,6 @@ class PinsController < ApplicationController
 
   def home
     @user = User.new
-  end
-
-  def wall
     @pins = Pin.all
   end
 
