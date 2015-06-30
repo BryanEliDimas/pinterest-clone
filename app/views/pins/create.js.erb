@@ -2,5 +2,6 @@
   $('#bryans-modal').modal("hide");
   $('.container').html("<%= j render partial: 'wall' %>");
 <% else %>
+    $('#bryans-modal .modal-title').html("New Interest");
     $('#bryans-modal .modal-body').html("<%= j render partial: 'new_pin' %>");
 <% end %>

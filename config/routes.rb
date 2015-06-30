@@ -11,9 +11,11 @@ Rails.application.routes.draw do
 
   get 'signout' => 'sessions#delete', as: :sign_out
 
-  get 'pin' => 'pins#new', as: :new_pin
+  get 'new_pin' => 'pins#new', as: :new_pin
 
-  post 'pin' => 'pins#create', as: :pins
+  post 'create_pin' => 'pins#create', as: :pins
+
+  get 'pin' => 'pins#show', as: :pin_modal
 
   root 'pins#home'
 end
