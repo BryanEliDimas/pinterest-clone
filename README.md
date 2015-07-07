@@ -2,18 +2,16 @@
 
 ## Objectives
 
-### Learning Objectives
-
-After completing this assignment, you should…
+### Objectives
 
 * JavaScript proficiently
 * Understand the Rails Remote Form cycle
 * Create a single page application
 
 
-### Performance Objectives
+### Abilities
 
-After completing this assignment, you be able to effectively use
+To effectively use:
 
 * Rails remote forms
 * jQuery
