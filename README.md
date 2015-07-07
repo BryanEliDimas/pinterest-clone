@@ -1,7 +1,5 @@
 ## The Iron Yard - Week 7 Lab
 
-## Objectives
-
 ### Objectives
 
 * JavaScript proficiently
